@@ -3,14 +3,19 @@ body{
     font-size: 15px;
     background-color: hsl(220, 15%, 55%);
 }
-.contenedor {
-    display: block;
-    background-color: white;
+.contenedorPrincipal {
+    display: grid;
+    justify-items: center;
     align-items: center;
+}
+.contenedor {
+    
+    background-color: white;
+    justify-items: center;
     border-radius: 19px;
 }
 .codigo {
-    size: 100px;
+    width: 200px;
     border-radius: 15px;
 }
 
