@@ -1,6 +1,11 @@
 body{
     font-family: outfit;
     font-size: 15px;
+    background-color: hsl(220, 15%, 55%);
+}
+.contenedor {
+    background-color: white;
+    align-items: center;
 }
 .codigo {
     border-radius: 15px;
