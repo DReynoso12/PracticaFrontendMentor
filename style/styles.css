@@ -9,13 +9,13 @@ body{
     align-items: center;
 }
 .contenedor {
-    
+    display: grid;
     background-color: white;
     justify-items: center;
     border-radius: 19px;
 }
 .codigo {
-    width: 200px;
+    width: 300px;
     border-radius: 15px;
 }
 
