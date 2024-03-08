@@ -2,10 +2,17 @@ body{
     background-color: hsl(212, 45%, 89%);
     font-family: Outfit;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-    .attribution { font-size: 11px;
-        text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution { font-size: 11px;
+    text-align: center; }
+    
+.attribution a { color: hsl(228, 45%, 44%); }
 
 .contenedorPrincipal{
     background-color: white;
@@ -20,5 +27,4 @@ body{
 .imagen1{
     width: 300px;
     border-radius: 20px;
-
 }
