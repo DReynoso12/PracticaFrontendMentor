@@ -1,4 +1,6 @@
-
+body{
+    background-color: hsl(212, 45%, 89%);
+}
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -9,5 +11,6 @@
 
 .imagen1{
     width: 300px;
-    
+    border-radius: 20px;
+
 }
