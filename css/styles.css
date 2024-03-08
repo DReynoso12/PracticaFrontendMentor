@@ -1,5 +1,6 @@
 body{
     background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
 }
     .attribution { font-size: 11px;
         text-align: center; }
@@ -12,6 +13,7 @@ body{
     border-radius: 20px;
     width: 300px;
     padding: 15px;
+    font-size: 15px;
 }
 .contenedorPrincipal p{
     text-align: center;
