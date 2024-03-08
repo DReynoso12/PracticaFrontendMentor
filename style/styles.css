@@ -1,33 +1,30 @@
 body{
-    font-family: outfit;
-    font-size: 15px;
-    background-color: hsl(220, 15%, 55%);
-
-}
-
-.contenedorPrincipal {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-}
-.contenedor {
-    display: grid;
-    background-color: white;
-    justify-items: center;
-    border-radius: 19px;
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
     text-align: center;
-}
-.codigo {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 300px;
-    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-p {
-    margin-bottom: 20px;
-}
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px;
+    text-align: center; }
+    
 .attribution a { color: hsl(228, 45%, 44%); }
+
+.contenedorPrincipal{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.imagen1{
+    width: 300px;
+    border-radius: 20px;
+}
